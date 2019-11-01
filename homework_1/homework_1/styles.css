@@ -1,0 +1,64 @@
+html {
+    font-family: 'Roboto', sans-serif;
+    color: #222222;
+}
+
+h1 {
+    font-size: 32px; 
+    font-size: 3.2rem;
+    font-variant: small-caps;
+    font-weight: 400;
+    text-align: center;
+    border-bottom: 2px solid #aaaaaa;
+    
+}
+
+h2 {
+    font-size: 24px; 
+    font-size: 2.4rem;
+    font-weight: 500;
+    border-bottom: 2px solid #aaaaaa;
+}
+
+div, figure {
+    margin: 15px 40px;
+    padding: 15px;
+    width: 250px;
+    background-color: #eeeeee;
+    border-radius: 3px;
+    border: 1px solid #dddddd;
+}
+
+figcaption.img {
+    font-size: 13px;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+figcaption#main {
+    font-weight: 500; /*ничего не меняется. я что-то не так делаю?*/
+}
+
+img {
+    width: 100%;
+    border-radius: 3px;
+}
+
+p {
+    text-align: justify;
+    text-indent: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: #0088ff;
+}
+
+blockquote {
+    padding: 15px;
+    font-style: italic;
+    background-color: #eeeeee;
+    border-radius: 3px;
+    border: 1px solid #dddddd;
+}
+

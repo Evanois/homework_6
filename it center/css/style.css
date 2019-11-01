@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&subset=cyrillic');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* Navbar */
+.navbar {
+	border: none;
+	border-radius: 0;
+}
+.navbar-default {
+	background-color: rgba(255, 255, 255, 0.5);
+	border-color: transparent;
+}
+
+.navbar-toggle {
+	border: none;
+	border-radius: 0;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background-color: transparent;
+}
+
+.navbar-default .navbar-toggle:hover.icon-bar, .navbar-default .navbar-toggle:focus .icon-bar{
+	background-color: #10c9c3;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #0c0c0c;
+}
+
+.navbar-default .navbar-nav>li>a {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 1.25rem;
+	text-transform: uppercase;
+	color: #0c0c0c;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	color: #10c9c3;
+}
+
+.navbar-default .navbar-nav>li.active>a {
+	color: #10c9c3;
+}
+
+.navbar-default .navbar-nav>li.active>a:hover {
+	color: #10c9c3;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+	background-color: transparent;
+}
+
+.banner {
+	background-image: url('../img/banner.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	height: 100vh;
+
+}
+
+.banner_text_center {
+	position: absolute;
+	left: -15px;
+	right: 15px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.h-100 {
+	height: 100%;
+} 
+.banner_button {
+	width: 180px;
+	height: 54px;
+	background-color: #10c9c3;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 1.25rem;
+	text-transform: uppercase;
+	color: #fff;
+	border: none;
+}
+
+.banner_button:hover {
+	background-color: #fff;
+	color: #10c9c3;
+}
+@media screen and (min-width: 768px) {
+	.navbar-default {
+		background-color: transparent;
+	}
+
+	.nav>li>a {
+		padding: 40px 15px;
+	}
+
+	.navbar-brand {
+		padding: 37.5px 15px;
+		height: 100px;
+	}
+}

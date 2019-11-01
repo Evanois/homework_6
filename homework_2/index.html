@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Таблица+форма</title>
+        <style>
+            table, td {
+                border: 1px solid #000;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <caption><strong>Котики</strong></caption>
+            <thead>
+                <tr>
+                    <td colspan="10">Просто котики</td>
+                </tr>
+            </thead>
+            <tfoot>
+                <tr>
+                    <td colspan="10">Просто просто котики</td>
+                </tr>
+            </tfoot>
+            <tbosdy>
+                <tr>
+                    <td>Абиссинская кошка</td>
+                    <td>Австралийский мист</td>
+                    <td>Американский керл</td>
+                    <td colspan="2">Анатолийская кошка</td>
+                    <td>Аравийский мау</td>
+                    <td>Бенгальская кошка</td>
+                    <td>Бомбейская кошка</td>
+                    <td colspan="2">Хайленд фолд</td>
+                </tr>
+                
+                <tr>
+                    <td>Гавана</td>
+                    <td>Девон Рекс</td>
+                    <td>Египетская мау</td>
+                    <td>Корат</td>
+                    <td>Корниш рекс</td>
+                    <td>Мэнкс</td>
+                    <td>Минскин</td>
+                    <td >Саванна</td>
+                    <td>Сококе</td>
+                    <td>Тойгер</td>
+                </tr>
+                
+                <tr>
+                    <td rowspan="2">Чаузи</td>
+                    <td>Шартрез</td>
+                    <td>Кимрик</td>
+                    <td rowspan="2">Мейн кун</td>
+                    <td>Нибелунг</td>
+                    <td>Пикси боб</td>
+                    <td colspan="2">Рэгдолл</td>
+                    <td>Священная бирма</td>
+                    <td rowspan="3">Сноу-шу</td>
+                </tr>
+                
+                <tr>
+                    <td>ЛаПерм</td>
+                    <td>Манчкин</td>
+                    <td>Хайленд фолд</td>
+                    <td>Гималаи</td>
+                    <td>Кимрик</td>
+                    <td>ЛаПерм</td>
+                    <td>Манчкин</td>
+                </tr>
+                
+                <tr>
+                    <td>Нибелунг</td>
+                    <td>Пикси боб</td>
+                    <td>Сибирская кошка</td>
+                    <td>Турецкая ангора</td>
+                    <td>Турецкий ван</td>
+                    <td>Донской сфинкс</td>
+                    <td>Украинский левкой</td>
+                    <td>Девон-рекс</td>
+                    <td>Гималайская кошка</td>
+                </tr>
+                
+                <tr>
+                    <td colspan="2">Бурмилла</td>
+                    <td>Курильский бобтейл</td>
+                    <td>Лаперм</td>
+                    <td>Немецкий рекс</td>
+                    <td>Наполеон</td>
+                    <td colspan="3" rowspan="2">Ориентальная кошка</td>
+                    <td>Оцикет</td>     
+                </tr>
+                
+                <tr>
+                    <td>Персидская кошка</td>
+                    <td>Рагамаффин</td>
+                    <td>Бирманская кошка</td>
+                    <td>Сиамская кошка</td>
+                    <td>Сибирская кошка</td>
+                    <td>Японский бобтейл</td>
+                    <td>Тайская кошка</td>
+                </tr>
+                
+                <tr>
+                    <td colspan="9" rowspan="2">Шартрез или картезианская кошка</td>
+                    <td>Канадский сфинкс</td>
+                </tr>
+                
+                <tr>
+                    <td>Сомалийская кошка</td>
+                </tr>
+                
+                <tr>
+                    <td>Селкирк-рекс</td>
+                    <td>Чаузи</td>
+                    <td colspan="3">Европейская короткошёрстная</td>
+                    <td>Корат</td>
+                    <td>Корниш-рекс</td>
+                    <td rowspan="2">Шотландская вислоухая</td>
+                    <td>Тонкинская кошка </td>
+                    <td>Русская голубая</td>
+                </tr>
+                
+                <tr>
+                    <td>Бамбино</td>
+                    <td>Невская маскарадная</td>
+                    <td>Ликои</td>
+                    <td>Манкс</td>
+                    <td>Персидская кошка</td>
+                    <td>Ориентальная</td>
+                    <td>Норвежская лесная</td>
+                    <td>Скоттиш-страйт</td>
+                    <td>Серенгети</td>
+                </tr>     
+            </tbody>
+        </table>
+        
+        <h1>Анкетка</h1>
+        <form action="/action.php">
+            <label>Имя<input type="text" name="name"></label><br><br>
+            <label>Фамилия<input type="text" name="lastname"></label><br><br>
+            <label>Отчество<input type="text" name="father's name"></label><br><br>
+            <label>Логин<input type="text" name="login"></label><br><br>
+            <label>Пароль<input type="password" name="password"></label><br><br>
+            <label>E-mail<input type="email" name="email"></label><br><br>
+            <label>Телефончик<input type="tel" name="phone"></label><br><br>
+            <label>Страничка в Вк<input type="url" name="..."></label><br><br>
+            <label>Поищи котиков<input type="search" name="search"></label>
+            
+            
+            <p><strong>Какие котики тебе нравятся?</strong></p>
+            <label>Короткошерстные<input type="checkbox" name="short"></label><br>
+            <label>Полудлинношерстные<input type="checkbox" name="semi"></label><br>
+            <label>Длинношерстные<input type="checkbox" name="long"></label><br>
+            <label>Лысые<input type="checkbox" name="bold"></label>
+            
+            <p><strong>А у тебя есть котик?</strong></p>
+            <label>Мяяу!<input type="radio" name="cat"></label><br>
+            <label>Нет<input type="radio" name="cat"></label>
+            
+            <p><strong>От 10 до 10 как сильно ты любишь котиков?</strong></p><input type="range" name="range" step="1">
+            
+            <label><p><strong>А сколько котиков ты хочешь дома?</strong></p><input type="number" name="number" min="0" max="100" step="1"></label>
+            
+            <p><strong>Загрузи сюда фотку своего котика. Если у тебя нет котика - загрузи любимую картинку и купи себе котика :3</strong></p>
+            <label>Загрузи картиночку<input type="file" name="photo"></label>
+            
+            <p> Нажми сюда, если ты котик и у тебя лапки :3 -><input type="reset" name="reset"></p>
+            
+            <input type="button" name="button" value="Потыкай лапкой">
+            
+            <p><strong>Кто котик?</strong></p>
+            <select name="choose" size="3" multiple>
+                <option value="me">Я котя</option>
+                <option value="you">Ты котя</option>
+                <option value="no one">Никто не котя</option>
+            </select>
+            
+            <p>Нажми сюда, если тебе не равнодушны котики -><input type="submit" name="submit"></p>
+                
+        </form>
+        
+    </body>
+</html>
